@@ -1,0 +1,13 @@
+= Spring REST Docs Example
+
+This is an example output for a service running at http://localhost:9093:
+
+== GET API Example
+
+.request
+include::{snippets}/testGetPolicies/http-request.adoc[]
+
+.response
+include::{snippets}/testGetPolicies/http-response.adoc[]
+
+The data which we can see as part of documentation will loaded from MockMvc Test case data
